@@ -53,7 +53,7 @@ if(isset($_SESSION['user_id'])){
             <h3>Best food in the country</h3>
             <p>Our mission is to make the food ordering process simple, efficient and enjoyable. We have carefully designed our website to offer you a user-friendly interface that allows you to browse through menus and customize your orders with just a few clicks.</p>
             <p>Say goodbye to long wait times on the phone and the hassle of dealing with busy signals or misheard orders.</p>
-            <p>With "Meetho", you can conveniently place your order online, saving you time and ensuring accuracy.</p>
+            <p>With "Foodland", you can conveniently place your order online, saving you time and ensuring accuracy.</p>
           </div>
       </div>
     </section>

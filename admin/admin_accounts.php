@@ -16,9 +16,7 @@ if(isset($_GET['delete'])){
    $delete_admin->execute([$delete_id]);
    header('location:admin_accounts.php');
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,6 +75,8 @@ if(isset($_GET['delete'])){
    ?>
 
    </div>
+
+   
 
 </section>
 

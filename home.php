@@ -44,35 +44,37 @@ include 'components/add_cart.php';
       <div class="swiper-wrapper">
 
          <div class="swiper-slide ">
-            <div class="content">
+            <!-- <div class="content">
                <span>Order Online</span>
-               <h3>delicious pizza</h3>
+               <h4>Order your favourite food easily</h4>
+               <h3>Tasty Biryani</h3>
                <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-1.png" alt="">
+               <img src="image/bir.jpg" alt="">
             </div>
          </div>
 
          <div class="swiper-slide ">
             <div class="content">
                <span>Order Online</span>
-               <h3>chezzy hamburger</h3>
+               <h3>Chaku Yomari</h3>
                <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-2.png" alt="">
+               <img src="image/yomari.jpg" alt="">
             </div>
-         </div>
+         </div> -->
 
          <div class="swiper-slide ">
             <div class="content">
-               <span>Order Online</span>
-               <h3>Fried chicken</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <!-- <span>Order Online</span> -->
+               <h4>Order your favourite food easily</h4>
+               <h3>Cheesy Cake</h3>
+               <!-- <a href="menu.php" class="btn">see menus</a> -->
             </div>
             <div class="image">
-               <img src="images/home-img-3.png" alt="">
+               <img src="image/cake.jpg" alt="">
             </div>
          </div>
 
@@ -91,22 +93,22 @@ include 'components/add_cart.php';
    <div class="box-container">
 
       <a href="category.php?category=fast food" class="box">
-         <img src="images/cat-1.png" alt="">
+         <img src="image/fast.png" alt="">
          <h3>fast food</h3>
       </a>
 
       <a href="category.php?category=main dish" class="box">
-         <img src="images/cat-2.png" alt="">
+         <img src="image/mainfood.png" alt="">
          <h3>main dishes</h3>
       </a>
 
       <a href="category.php?category=drinks" class="box">
-         <img src="images/cat-3.png" alt="">
+         <img src="image/drink.png" alt="">
          <h3>drinks</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
-         <img src="images/cat-4.png" alt="">
+         <img src="image/deesert.png" alt="">
          <h3>desserts</h3>
       </a>
 

@@ -15,8 +15,7 @@ if(isset($message)){
 
    <section class="flex">
 
-   <a href="home.php" class="logo"><i class="fas fa-utensils"></i>Foodland</a> 
-   <!-- remove logo <i class="fas fa-utensils"></i> add image-->
+   <a href="home.php" class="logo"><i class="fas fa-utensils"></i>Meetho</a>
 
       <nav class="navbar">
          <a href="home.php">Home</a>
@@ -27,7 +26,7 @@ if(isset($message)){
 
       <div class="icons">
          <?php
-            $count_cart_items = $conn->prepare("SELECT * FROM cart WHERE user_id = ?");
+            $count_cart_items = $conn->prepare("SELECT * FROM `cart` WHERE user_id = ?");
             $count_cart_items->execute([$user_id]);
             $total_cart_items = $count_cart_items->rowCount();
          ?>
@@ -39,7 +38,7 @@ if(isset($message)){
 
       <div class="profile">
          <?php
-            $select_profile = $conn->prepare("SELECT * FROM users WHERE id = ?");
+            $select_profile = $conn->prepare("SELECT * FROM `users` WHERE id = ?");
             $select_profile->execute([$user_id]);
             if($select_profile->rowCount() > 0){
                $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
@@ -66,3 +65,4 @@ if(isset($message)){
    </section>
 
 </header>
+

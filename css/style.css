@@ -919,6 +919,9 @@ text-align: justify;
 .loader img{
   height: 25rem;
 }
+.image{
+  border-radius: 50%;
+}
 
 
 
